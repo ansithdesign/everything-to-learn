@@ -1,0 +1,1498 @@
+{
+  "parts": [
+    "Part I: Design Craft",
+    "Part II: Evidence & Strategy",
+    "Part III: Product, People & Practice",
+    "Part IV: Building & Inclusion",
+    "Part V: AI & Emerging Practice"
+  ],
+  "chapters": [
+    {
+      "id": "01",
+      "slug": "visual-ui-craft",
+      "part": 0,
+      "title": "Visual & UI Craft",
+      "subtitle": "Taste, typography, color, layout and icons when production is cheap",
+      "description": "Composition, typography, color, layout and iconography, with what is changing in 2026 and how to build judgment that tools do not replace.",
+      "objectives": [
+        "Critique an interface against named criteria instead of preference.",
+        "Set a type scale, a semantic color system and a spacing scale for a product.",
+        "Meet WCAG 2.2 contrast, reflow and target-size requirements and explain the status of WCAG 3.",
+        "Specify a responsive layout precisely enough to implement without guesswork."
+      ],
+      "difficulty": "Foundation",
+      "prerequisites": [],
+      "related": [
+        "02",
+        "03"
+      ],
+      "file": "01-visual-ui-craft",
+      "fundamentals": {
+        "subtitle": "The principles behind good-looking, easy-to-use screens",
+        "description": "Hierarchy, the CRAP and Gestalt principles, typography basics, color theory, grids and spacing, and icons, explained from the ground up.",
+        "objectives": [
+          "Explain hierarchy, contrast, alignment, proximity and Gestalt principles with examples.",
+          "Describe type anatomy, classifications and the settings that make text readable.",
+          "Use hue, saturation, value, color harmonies and contrast to build a UI palette.",
+          "Explain grid anatomy, grid types and spacing systems."
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "slug": "interaction-experience-design",
+      "part": 0,
+      "title": "Interaction & Experience Design",
+      "subtitle": "Patterns, states, motion, flows, IA, responsive behavior and AI interactions",
+      "description": "How products behave: patterns, states, motion, flows, information architecture and responsive design, plus the new skill of designing AI interactions.",
+      "objectives": [
+        "Design the full state matrix for a feature, including empty, error and partial states.",
+        "Choose, adapt or reject a pattern using stated criteria.",
+        "Draw flows with failure and recovery paths, and validate a structure with a tree test.",
+        "Design an AI feature with approval, stop, recovery and an evaluation rubric."
+      ],
+      "difficulty": "Foundation",
+      "prerequisites": [
+        "01"
+      ],
+      "related": [
+        "03",
+        "04"
+      ],
+      "file": "02-interaction-experience-design",
+      "fundamentals": {
+        "subtitle": "How products behave, and how people find their way",
+        "description": "Usability principles, Nielsen's heuristics, UX laws, states, common patterns, motion, user flows, information architecture and responsive design.",
+        "objectives": [
+          "Explain affordances, signifiers, feedback, mapping and constraints.",
+          "Apply Nielsen's heuristics and common UX laws to a design.",
+          "Choose standard patterns for navigation, input and feedback.",
+          "Describe user flows, IA methods and responsive design approaches."
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "slug": "design-systems-scalable-design",
+      "part": 0,
+      "title": "Design Systems & Scalable Design",
+      "subtitle": "Tokens, components, governance and making a system AI-ready",
+      "description": "Thinking in systems, building and maintaining one, making strategic exceptions, and preparing a design system for use by AI tools.",
+      "objectives": [
+        "Structure tokens in primitive, semantic and component layers.",
+        "Specify an accessible, documented, testable component.",
+        "Decide when to break the system and record why.",
+        "Make a design system's documentation and constraints usable by AI tools."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "01",
+        "02"
+      ],
+      "related": [
+        "01",
+        "02"
+      ],
+      "file": "03-design-systems-scalable-design",
+      "fundamentals": {
+        "subtitle": "What design systems are and how they work",
+        "description": "The layers of a design system, atomic design, design tokens and token layers, components, documentation, team models and famous systems to study.",
+        "objectives": [
+          "Explain the difference between a style guide, a component library and a design system.",
+          "Describe primitive, semantic and component tokens and why layers matter.",
+          "Describe a component's anatomy, variants, states and properties.",
+          "Compare design system team models and how systems are versioned."
+        ]
+      }
+    },
+    {
+      "id": "04",
+      "slug": "user-research-validation",
+      "part": 1,
+      "title": "User Research & Validation",
+      "subtitle": "Methods, testing, synthesis, journey maps and using AI without fooling yourself",
+      "description": "Research methods, usability testing, synthesis and journey mapping, with a protocol for AI-assisted research and guidance on researching AI products.",
+      "objectives": [
+        "Match a research method to a question and name its limits.",
+        "Plan and run a usability test and report findings with severity.",
+        "Synthesize evidence into labeled, traceable insights.",
+        "Use AI in analysis with consent, verification and disclosure, and explain why synthetic users supplement but do not replace participants."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "02"
+      ],
+      "related": [
+        "05",
+        "02"
+      ],
+      "file": "04-user-research-validation",
+      "fundamentals": {
+        "subtitle": "What user research is and the main methods",
+        "description": "Types of research, the main methods and when to use each, planning and bias, usability testing, synthesis and journey mapping, explained from the ground up.",
+        "objectives": [
+          "Classify methods as attitudinal or behavioral, qualitative or quantitative, generative or evaluative.",
+          "Choose the right method for a research question.",
+          "Plan and run a basic usability test with goal-based tasks.",
+          "Turn observations into insights and build an evidence-based journey map."
+        ]
+      }
+    },
+    {
+      "id": "05",
+      "slug": "product-discovery-strategic-ux",
+      "part": 1,
+      "title": "Product Discovery & Strategic UX",
+      "subtitle": "Strategy, discovery, competitive analysis, metrics and AI product bets",
+      "description": "Deciding what is worth designing: UX strategy, continuous discovery, competitive and market awareness, metrics, and strategy for AI products.",
+      "objectives": [
+        "Write a one-page UX strategy that says what the team will not do.",
+        "Build an opportunity solution tree and design the cheapest test of the riskiest assumption.",
+        "Run a competitive teardown that separates observation from inference.",
+        "Evaluate an AI feature idea on problem, quality, risk, cost and differentiation."
+      ],
+      "difficulty": "Advanced",
+      "prerequisites": [
+        "04"
+      ],
+      "related": [
+        "04",
+        "02"
+      ],
+      "file": "05-product-discovery-strategic-ux",
+      "fundamentals": {
+        "subtitle": "How teams decide what to build",
+        "description": "Problem vs. solution space, outcomes, UX strategy, the four product risks, discovery frameworks, problem framing, prioritization and competitive analysis.",
+        "objectives": [
+          "Explain outputs, outcomes and impact, and discovery vs. delivery.",
+          "Describe the Double Diamond, design thinking, continuous discovery and JTBD.",
+          "Write a problem statement and 'how might we' questions.",
+          "Run a basic competitive analysis that ends in implications."
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "slug": "product-business-thinking",
+      "part": 2,
+      "title": "Product & Business Thinking",
+      "subtitle": "Outcomes, money, metrics, prioritization, design ROI and positioning",
+      "description": "Connecting design to product, business and outcomes: product thinking, business models, metrics, prioritization, honest impact measurement and positioning.",
+      "objectives": [
+        "Rewrite a feature request as a problem with a metric and a cheap test.",
+        "Describe how your product makes money and where design moves each part of it.",
+        "Read funnels and cohorts without confusing correlation with causation.",
+        "Write an impact case with a baseline, honest attribution and stated assumptions."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "05"
+      ],
+      "related": [
+        "05",
+        "07"
+      ],
+      "file": "06-product-business-thinking",
+      "fundamentals": {
+        "subtitle": "How products create value for users and the business",
+        "description": "Product thinking, business models, B2B vs. B2C, key product metrics and frameworks, prioritization methods and how to measure design's impact.",
+        "objectives": [
+          "Explain product thinking and the desirable–viable–feasible balance.",
+          "Describe common business models and unit economics basics.",
+          "Use AARRR, HEART and North Star metrics to choose measures.",
+          "Apply RICE and Kano, and estimate the value of a design change."
+        ]
+      }
+    },
+    {
+      "id": "07",
+      "slug": "communication-storytelling",
+      "part": 2,
+      "title": "Communication & Storytelling",
+      "subtitle": "Presenting, writing, critique and facilitation, including with AI in the loop",
+      "description": "Presenting decisions, writing clearly, giving and receiving critique, and facilitating groups, with guidance on communicating AI-assisted work honestly.",
+      "objectives": [
+        "Present a decision using an answer-first structure with evidence.",
+        "Write a decision memo and a self-contained chat ask.",
+        "Run and receive a structured critique that separates actionable feedback from preference.",
+        "Design and facilitate a workshop with a purpose, outcome and decision rule."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "04"
+      ],
+      "related": [
+        "08",
+        "01"
+      ],
+      "file": "07-communication-storytelling",
+      "fundamentals": {
+        "subtitle": "How designers explain, write, critique and facilitate",
+        "description": "Storytelling structures, presenting design work, clear writing and design documents, giving and receiving critique, and planning workshops and design sprints.",
+        "objectives": [
+          "Structure a presentation using story frameworks and the pyramid principle.",
+          "Write clear briefs, specs and decision records.",
+          "Give actionable, goal-linked critique and receive feedback well.",
+          "Plan a workshop that separates diverging from converging."
+        ]
+      }
+    },
+    {
+      "id": "08",
+      "slug": "collaboration-leadership",
+      "part": 2,
+      "title": "Collaboration & Leadership",
+      "subtitle": "Cross-functional work, stakeholders, mentoring and group decisions",
+      "description": "Getting good decisions made across an organization: working with partners, managing stakeholders, mentoring others and deciding as a group, as teams are reshaped by AI.",
+      "objectives": [
+        "Write a working agreement with product and engineering, including how AI tools are used.",
+        "Map stakeholders and plan conversations around their incentives.",
+        "Say no with the goal, trade-off, alternative and ask.",
+        "Run a decision with a named decider, a decision rule and a record."
+      ],
+      "difficulty": "Advanced",
+      "prerequisites": [
+        "06",
+        "07"
+      ],
+      "related": [
+        "07",
+        "06"
+      ],
+      "file": "08-collaboration-leadership",
+      "fundamentals": {
+        "subtitle": "How designers work with teams and lead without authority",
+        "description": "Product team roles, agile basics, working with engineers and PMs, stakeholder mapping, RACI, mentoring, feedback models and group decision methods.",
+        "objectives": [
+          "Describe product team roles and agile ways of working.",
+          "Map stakeholders and use RACI or DACI to clarify roles.",
+          "Give feedback using the SBI model and mentor effectively.",
+          "Choose a decision method and build psychological safety."
+        ]
+      }
+    },
+    {
+      "id": "09",
+      "slug": "design-tools-prototyping",
+      "part": 3,
+      "title": "Design Tools & Prototyping",
+      "subtitle": "Tool structure, fidelity choices, coded prototypes and handoff",
+      "description": "Building well-structured files, choosing prototype fidelity to match the question, prototyping in code with AI, and handing off complete, buildable work.",
+      "objectives": [
+        "Structure a design file with components, variables and auto layout that people and agents can use.",
+        "Choose the fidelity and tool that answers a given question.",
+        "Describe the risks of an AI-built prototype and how to manage them.",
+        "Write a complete handoff with states, behavior, accessibility and acceptance criteria."
+      ],
+      "difficulty": "Foundation",
+      "prerequisites": [
+        "03"
+      ],
+      "related": [
+        "10",
+        "03"
+      ],
+      "file": "09-design-tools-prototyping",
+      "fundamentals": {
+        "subtitle": "Working well in design tools, prototypes and handoff",
+        "description": "The design tool landscape, auto layout, components and variables, prototype fidelity and types, and what a complete developer handoff includes.",
+        "objectives": [
+          "Use frames, auto layout, components, variants and variables well.",
+          "Choose the right prototype fidelity and type for a question.",
+          "Prepare a complete handoff with states, behavior and annotations.",
+          "Run design QA on a built feature."
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "slug": "technical-engineering-literacy",
+      "part": 3,
+      "title": "Technical & Engineering Literacy",
+      "subtitle": "HTML, CSS, workflow, design systems in code and how AI systems behave",
+      "description": "The technical environment your designs live in: HTML and CSS, how the web works, developer workflow, design systems in code and how AI systems behave.",
+      "objectives": [
+        "Build a responsive page by hand with semantic HTML and CSS.",
+        "Read a pull request and comment usefully on behavior and accessibility.",
+        "Trace how a design system component is implemented from tokens to props.",
+        "Explain what goes into a model for an AI feature and why it matters for design."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "09"
+      ],
+      "related": [
+        "09",
+        "11"
+      ],
+      "file": "10-technical-engineering-literacy",
+      "fundamentals": {
+        "subtitle": "How the web works, explained for designers",
+        "description": "Clients, servers and APIs, HTML and semantic structure, CSS and layout, JavaScript basics, engineering workflows, responsive code and design systems in code.",
+        "objectives": [
+          "Explain front end, back end, APIs and why they create loading and error states.",
+          "Read basic HTML and CSS, including the box model, Flexbox and Grid.",
+          "Describe how engineering teams build, review and release code.",
+          "Explain how tokens and components move from design to code."
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "slug": "accessibility-inclusive-design",
+      "part": 3,
+      "title": "Accessibility & Inclusive Design",
+      "subtitle": "WCAG 2.2, color, interaction, testing, the 2026 legal picture and inclusive design",
+      "description": "Accessibility as its own discipline: standards, implementation, accessible color and interaction, testing, legal context in 2026 and inclusive design beyond disability.",
+      "objectives": [
+        "Audit a flow by keyboard and screen reader and map problems to WCAG criteria.",
+        "Apply the WCAG 2.2 additions that affect design, such as target size, focus and redundant entry.",
+        "Explain why overlays and automated scanners are not enough.",
+        "Design accessible AI and agent interfaces and plan research with disabled participants."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "01",
+        "02"
+      ],
+      "related": [
+        "01",
+        "02",
+        "10"
+      ],
+      "file": "11-accessibility-inclusive-design",
+      "fundamentals": {
+        "subtitle": "Designing for everyone, from the ground up",
+        "description": "Types of disability and assistive technology, WCAG and POUR, contrast, keyboard and focus, accessible forms and content, ARIA basics and how to test.",
+        "objectives": [
+          "Describe types of disability and the assistive technologies people use.",
+          "Explain WCAG's POUR principles and conformance levels.",
+          "Apply contrast, keyboard, focus and target-size requirements.",
+          "Test accessibility with automated tools, manual checks and users."
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "slug": "ai-emerging-design-practice",
+      "part": 4,
+      "title": "AI & Emerging Design Practice",
+      "subtitle": "Workflows, prompting, evaluating outputs, responsible AI and staying current",
+      "description": "Using AI as a multiplier of judgment: workflows, prompting as specification, evaluating and directing outputs, responsible AI and tracking change without hype.",
+      "objectives": [
+        "Map your own workflow and set personal rules for using AI.",
+        "Write a design brief for a model with goal, context, constraints, format and criteria.",
+        "Evaluate generated output against a rubric and direct improvements.",
+        "Run a responsible-AI risk review for a feature and record owners and mitigations."
+      ],
+      "difficulty": "Advanced",
+      "prerequisites": [
+        "02",
+        "04"
+      ],
+      "related": [
+        "02",
+        "04",
+        "05"
+      ],
+      "file": "12-ai-emerging-design-practice",
+      "fundamentals": {
+        "subtitle": "What AI is and how to use it well in design",
+        "description": "AI and generative AI basics, how LLMs work, AI in the design workflow, prompting, evaluating AI output, designing AI experiences and responsible AI.",
+        "objectives": [
+          "Explain AI, machine learning, generative AI and LLMs in plain terms.",
+          "Describe tokens, context windows, hallucination and RAG.",
+          "Write effective prompts and evaluate AI output critically.",
+          "Apply responsible AI principles to design work."
+        ]
+      }
+    }
+  ],
+  "references": [
+    {
+      "key": "nng-state-ux-2026",
+      "org": "Nielsen Norman Group",
+      "title": "State of UX 2026: Design Deeper to Differentiate",
+      "date": "16 January 2026",
+      "url": "https://www.nngroup.com/articles/state-of-ux-2026/",
+      "tier": 1,
+      "kind": "research",
+      "annotation": "Opened and read for this book. Source for the 2026 job market summary, AI fatigue, trust as a design problem, and the argument that taste and judgment differentiate.",
+      "chapters": [
+        "01",
+        "02",
+        "03",
+        "05"
+      ],
+      "verified": true
+    },
+    {
+      "key": "nng-synthetic-users",
+      "org": "Nielsen Norman Group",
+      "title": "Article on synthetic users re-run against three real studies",
+      "url": "https://www.nngroup.com/articles/synthetic-users/",
+      "tier": 1,
+      "kind": "research",
+      "annotation": "Opened and read. NN/g re-ran three studies with ChatGPT and a synthetic-user product and found responses overly agreeable and shallow. I did not capture the exact article title; open the page for it.",
+      "chapters": [
+        "04"
+      ],
+      "verified": true
+    },
+    {
+      "key": "dtcg-2025",
+      "org": "Design Tokens Community Group (W3C Community Group)",
+      "title": "Design Tokens specification reaches first stable version (2025.10)",
+      "date": "28 October 2025",
+      "url": "https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/",
+      "tier": 1,
+      "kind": "standard",
+      "annotation": "Opened and read. Community group specification, not a W3C Standard on the Standards Track.",
+      "chapters": [
+        "01",
+        "03"
+      ],
+      "verified": true
+    },
+    {
+      "key": "wcag3-draft",
+      "org": "W3C",
+      "title": "Web Content Accessibility Guidelines (WCAG) 3.0 (Working Draft)",
+      "date": "10 September 2026 draft",
+      "url": "https://www.w3.org/TR/wcag-3.0/",
+      "tier": 1,
+      "kind": "standard",
+      "annotation": "Opened; only the first part of a very long page was read. Says WCAG 3 does not replace WCAG 2 and that the contrast algorithm is yet to be determined.",
+      "chapters": [
+        "01"
+      ],
+      "verified": true
+    },
+    {
+      "key": "roselli-wcag3",
+      "org": "Adrian Roselli",
+      "title": "WCAG3 Contrast as of April 2026",
+      "date": "April 2026",
+      "url": "https://adrianroselli.com/2026/04/wcag3-contrast-as-of-april-2026.html",
+      "tier": 2,
+      "kind": "expert commentary",
+      "annotation": "Opened and read. Expert summary of the state of contrast methods and practical advice. Opinion from a respected practitioner, not a standard.",
+      "chapters": [
+        "01"
+      ],
+      "verified": true
+    },
+    {
+      "key": "wcag22",
+      "org": "W3C",
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "date": "2023",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "tier": 1,
+      "kind": "standard",
+      "annotation": "The normative accessibility standard. Cited from my knowledge of its success criteria; not re-opened for this book. Use the criteria text when making conformance claims.",
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "verified": false
+    },
+    {
+      "key": "webdev-baseline",
+      "org": "web.dev (Google)",
+      "title": "Baseline monthly digests, 2026",
+      "url": "https://web.dev/blog/baseline-digest-may-2026",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "Seen only as search results. Feature status claims (container style queries, :active-view-transition, contrast-color) come from those snippets; confirm current support before relying on them.",
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "verified": false
+    },
+    {
+      "key": "figma-sotd-2026",
+      "org": "Figma",
+      "title": "State of the Designer 2026",
+      "url": "https://www.figma.com/reports/state-of-the-designer-2026/",
+      "tier": 3,
+      "kind": "vendor survey",
+      "annotation": "The report is behind a form; figures in this book come from secondary coverage and are not verified. A vendor survey with its own interests.",
+      "chapters": [
+        "01",
+        "05"
+      ],
+      "verified": false
+    },
+    {
+      "key": "apple-hig-materials",
+      "org": "Apple",
+      "title": "Human Interface Guidelines: Materials",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/materials",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "The page text could not be retrieved when checking. Statements about where Liquid Glass should and should not be used are from general knowledge; confirm on the page.",
+      "chapters": [
+        "01"
+      ],
+      "verified": false
+    },
+    {
+      "key": "material3",
+      "org": "Google",
+      "title": "Material Design 3",
+      "url": "https://m3.material.io/",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "Not read in detail for this book. Primary source for Material 3 and Material 3 Expressive.",
+      "chapters": [
+        "01"
+      ],
+      "verified": false
+    },
+    {
+      "key": "nng-heuristics",
+      "org": "Nielsen Norman Group",
+      "title": "10 Usability Heuristics for User Interface Design",
+      "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "tier": 1,
+      "kind": "research",
+      "annotation": "Heuristics from expert evaluation; rules of thumb, not experimental laws. Not re-opened for this book.",
+      "chapters": [
+        "02"
+      ],
+      "verified": false
+    },
+    {
+      "key": "laws-of-ux",
+      "org": "Jon Yablonski",
+      "title": "Laws of UX",
+      "url": "https://lawsofux.com/",
+      "tier": 2,
+      "kind": "collection",
+      "annotation": "A useful vocabulary collection. Several entries are over-applied, so read the underlying research before relying on them.",
+      "chapters": [
+        "02"
+      ],
+      "verified": false
+    },
+    {
+      "key": "aria-apg",
+      "org": "W3C WAI",
+      "title": "ARIA Authoring Practices Guide",
+      "url": "https://www.w3.org/WAI/ARIA/apg/",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "Patterns for accessible widgets such as tabs, dialogs and comboboxes. Not re-opened for this book.",
+      "chapters": [
+        "02"
+      ],
+      "verified": false
+    },
+    {
+      "key": "agent-ux-practitioner",
+      "org": "Practitioner blogs (Zylos and others)",
+      "title": "Agentic UX: Frontend Design Patterns for AI Agents in 2026",
+      "date": "28 May 2026",
+      "url": "https://zylos.ai/research/2026-05-28-agentic-ux-frontend-design-patterns-ai-agents/",
+      "tier": 3,
+      "kind": "practitioner blog",
+      "annotation": "Seen only as a search result summary. Source of the delegate-monitor-approve-interrupt-refine framing and a taxonomy of generative UI. One practitioner perspective, not a standard.",
+      "chapters": [
+        "02"
+      ],
+      "verified": false
+    },
+    {
+      "key": "product-talk",
+      "org": "Product Talk (Teresa Torres)",
+      "title": "Product Talk: continuous discovery and AI evals",
+      "url": "https://www.producttalk.org/",
+      "tier": 2,
+      "kind": "expert practice",
+      "annotation": "The home page listing was read, showing a September 2026 article on AI evals. Individual articles were not opened.",
+      "chapters": [
+        "02",
+        "04",
+        "05"
+      ],
+      "verified": false
+    },
+    {
+      "key": "atomic-design",
+      "org": "Brad Frost",
+      "title": "Atomic Design",
+      "url": "https://atomicdesign.bradfrost.com/",
+      "tier": 2,
+      "kind": "book",
+      "annotation": "A mental model for composing interfaces. Not re-opened for this book.",
+      "chapters": [
+        "03"
+      ],
+      "verified": false
+    },
+    {
+      "key": "style-dictionary",
+      "org": "Style Dictionary",
+      "title": "Style Dictionary documentation",
+      "url": "https://styledictionary.com/",
+      "tier": 2,
+      "kind": "tool documentation",
+      "annotation": "A widely used token transformation tool, named as a reference implementation in the Design Tokens announcement. Not read in detail.",
+      "chapters": [
+        "03"
+      ],
+      "verified": false
+    },
+    {
+      "key": "paypal-ai-docs",
+      "org": "PayPal Engineering",
+      "title": "Post on giving AI more documentation",
+      "url": "https://developer.paypal.com/community/blog/stopgivingaimoredocumentation",
+      "tier": 3,
+      "kind": "company blog",
+      "annotation": "Seen only as a search result summary: describes invented prop names and hardcoded values in AI-generated components. Not opened; confirm the details.",
+      "chapters": [
+        "03"
+      ],
+      "verified": false
+    },
+    {
+      "key": "drweb-ds-agents",
+      "org": "Dr. Web (secondary report)",
+      "title": "Design systems and AI agents study (German-language report)",
+      "url": "https://www.drweb.de/design-systeme-ki-agenten-studie/",
+      "tier": 3,
+      "kind": "secondary report",
+      "annotation": "Not opened. Reports figures from a July 2026 study. The figures here are secondary and unverified.",
+      "chapters": [
+        "03"
+      ],
+      "verified": false
+    },
+    {
+      "key": "nng-methods",
+      "org": "Nielsen Norman Group",
+      "title": "When to Use Which User-Experience Research Methods",
+      "url": "https://www.nngroup.com/articles/which-ux-research-methods/",
+      "tier": 1,
+      "kind": "research",
+      "annotation": "The attitudinal/behavioral and qualitative/quantitative landscape. Not re-opened for this book.",
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "verified": false
+    },
+    {
+      "key": "nng-five-users",
+      "org": "Nielsen Norman Group",
+      "title": "Why You Only Need to Test with 5 Users",
+      "url": "https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/",
+      "tier": 1,
+      "kind": "research",
+      "annotation": "Often oversimplified. The argument concerns iterative qualitative testing of one user group, not a license for a single study. Not re-opened for this book.",
+      "chapters": [
+        "04"
+      ],
+      "verified": false
+    },
+    {
+      "key": "nng-journey-mapping",
+      "org": "Nielsen Norman Group",
+      "title": "Journey Mapping 101",
+      "url": "https://www.nngroup.com/articles/journey-mapping-101/",
+      "tier": 1,
+      "kind": "research",
+      "annotation": "Definition and components of journey maps. Not re-opened for this book.",
+      "chapters": [
+        "04"
+      ],
+      "verified": false
+    },
+    {
+      "key": "mom-test",
+      "org": "Rob Fitzpatrick",
+      "title": "The Mom Test",
+      "url": "https://www.momtestbook.com/",
+      "tier": 2,
+      "kind": "book",
+      "annotation": "Practical guidance for asking about past behavior instead of opinions. Not re-opened for this book.",
+      "chapters": [
+        "04"
+      ],
+      "verified": false
+    },
+    {
+      "key": "llm-coding-evidence",
+      "org": "Secondary research summary",
+      "title": "Studies of LLM versus human qualitative coding (2025 to 2026)",
+      "url": "https://formative.jmir.org/2026/1/e85572/PDF",
+      "tier": 3,
+      "kind": "secondary summary",
+      "annotation": "Seen only as search snippets, not opened. The kappa figures quoted in chapter 4 are from a summary of a systematic review and are unverified. Check the original studies before citing.",
+      "chapters": [
+        "04"
+      ],
+      "verified": false
+    },
+    {
+      "key": "svpg-risks",
+      "org": "Silicon Valley Product Group (Marty Cagan)",
+      "title": "The Four Big Risks",
+      "url": "https://www.svpg.com/four-big-risks/",
+      "tier": 2,
+      "kind": "expert practice",
+      "annotation": "Value, usability, feasibility and viability risk. Not re-opened for this book.",
+      "chapters": [
+        "05"
+      ],
+      "verified": false
+    },
+    {
+      "date": "24 June 2026",
+      "key": "figma-config-2026",
+      "org": "Figma",
+      "title": "Everything announced at Config 2026 (Figma forum)",
+      "url": "https://forum.figma.com/product-updates-3/everything-announced-at-config-2026-55221",
+      "tier": 1,
+      "kind": "official vendor",
+      "annotation": "Opened and read. Lists open beta (agent, generative plugins, shaders, Motion) and coming soon (code layers, agent in FigJam and Slides, 3D transforms). Does not cover Figma Make or Dev Mode.",
+      "chapters": [
+        "09",
+        "10"
+      ],
+      "verified": true
+    },
+    {
+      "date": "2026",
+      "key": "webaim-million",
+      "org": "WebAIM",
+      "title": "The WebAIM Million (2026 analysis)",
+      "url": "https://webaim.org/projects/million/",
+      "tier": 1,
+      "kind": "research",
+      "annotation": "Opened and read. February 2026 scan of one million home pages: 95.9% with detectable WCAG 2 failures, 56.1 errors per page, ARIA pages averaged more errors. Automated detection only, so it understates real failures.",
+      "chapters": [
+        "10",
+        "11"
+      ],
+      "verified": true
+    },
+    {
+      "key": "ada-title-ii",
+      "org": "U.S. Department of Justice (ADA.gov)",
+      "title": "ADA Title II web rule: first steps",
+      "url": "https://www.ada.gov/resources/web-rule-first-steps/",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "Opened and read. WCAG 2.1 AA for state and local governments; compliance 26 April 2027 (population 50,000 or more) and 26 April 2028 (smaller and special districts) after an April 2026 interim final rule. The page does not show the earlier dates.",
+      "chapters": [
+        "11"
+      ],
+      "verified": true
+    },
+    {
+      "key": "eaa-directive",
+      "org": "European Union",
+      "title": "Directive (EU) 2019/882 (European Accessibility Act)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+      "tier": 1,
+      "kind": "law",
+      "annotation": "Not opened. The applicability date of 28 June 2025 and the 2030 transition for existing services come from secondary commentary and need checking against the legal text and national laws.",
+      "chapters": [
+        "11"
+      ],
+      "verified": false
+    },
+    {
+      "key": "using-aria",
+      "org": "W3C",
+      "title": "Using ARIA",
+      "url": "https://www.w3.org/TR/using-aria/",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "Not re-opened. Source of the guidance to prefer native HTML over ARIA where possible.",
+      "chapters": [
+        "11"
+      ],
+      "verified": false
+    },
+    {
+      "key": "inclusive-microsoft",
+      "org": "Microsoft",
+      "title": "Inclusive Design",
+      "url": "https://inclusive.microsoft.design/",
+      "tier": 2,
+      "kind": "expert practice",
+      "annotation": "Not re-opened. Source of the permanent, temporary and situational spectrum.",
+      "chapters": [
+        "11"
+      ],
+      "verified": false
+    },
+    {
+      "key": "mdn",
+      "org": "Mozilla",
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/",
+      "tier": 1,
+      "kind": "reference",
+      "annotation": "Standard reference for HTML, CSS and JavaScript. Not opened for a specific claim.",
+      "chapters": [
+        "10"
+      ],
+      "verified": false
+    },
+    {
+      "key": "web-vitals",
+      "org": "Google (web.dev)",
+      "title": "Core Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "Not re-opened. LCP, INP and CLS as the loading, responsiveness and visual stability measures.",
+      "chapters": [
+        "10"
+      ],
+      "verified": false
+    },
+    {
+      "date": "2018",
+      "key": "mckinsey-design",
+      "org": "McKinsey & Company",
+      "title": "The Business Value of Design",
+      "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-business-value-of-design",
+      "tier": 2,
+      "kind": "industry research",
+      "annotation": "Seen only through search summaries (about 300 public companies; top performers outperformed benchmarks by as much as two to one). Correlational, partly self-reported; check the original before quoting figures.",
+      "chapters": [
+        "06"
+      ],
+      "verified": false
+    },
+    {
+      "date": "2019",
+      "key": "fortune-design-value",
+      "org": "Fortune",
+      "title": "The controversial debate over the value of design",
+      "url": "https://fortune.com/2019/11/19/the-controversial-debate-over-the-values-of-design",
+      "tier": 3,
+      "kind": "journalism",
+      "annotation": "Seen only through a search summary. Discusses the debate and that design appears on the balance sheet as a cost.",
+      "chapters": [
+        "06"
+      ],
+      "verified": false
+    },
+    {
+      "key": "musemind-ai-ux",
+      "org": "Musemind",
+      "title": "AI in UX design",
+      "url": "https://musemind.agency/blog/ai-in-ux-design",
+      "tier": 3,
+      "kind": "agency blog",
+      "annotation": "Seen only through a search summary. Source of a reported 65% of designers doing more work overlapping with product or engineering. Agency marketing content; figure unverified.",
+      "chapters": [
+        "06",
+        "08"
+      ],
+      "verified": false
+    },
+    {
+      "key": "i-like-i-wish",
+      "org": "Third Way",
+      "title": "I Like, I Wish, What If",
+      "url": "https://www.thirdway.org/thinking-tool/i-like-i-wish-what-if",
+      "tier": 2,
+      "kind": "practice guide",
+      "annotation": "Seen through a search summary, which attributes the method to the Stanford d.school. Not opened.",
+      "chapters": [
+        "07"
+      ],
+      "verified": false
+    },
+    {
+      "key": "gv-sprint",
+      "org": "Google Ventures",
+      "title": "The Design Sprint",
+      "url": "https://www.gv.com/sprint/",
+      "tier": 2,
+      "kind": "expert practice",
+      "annotation": "Not re-opened. Five-day process developed by Jake Knapp and colleagues.",
+      "chapters": [
+        "07"
+      ],
+      "verified": false
+    },
+    {
+      "key": "prompt-guide",
+      "org": "Anthropic",
+      "title": "Prompt engineering overview (Claude documentation)",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "Not re-opened for this book. Use the current guide for whichever model you use, and re-read it when the model changes. Other vendors publish their own.",
+      "chapters": [
+        "12"
+      ],
+      "verified": false
+    },
+    {
+      "key": "eu-ai-act-omnibus",
+      "org": "Gibson Dunn (law firm)",
+      "title": "EU AI Act Omnibus Agreement: postponed high-risk deadlines and other key changes",
+      "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
+      "tier": 3,
+      "kind": "legal analysis",
+      "annotation": "Seen through search summaries only. Reports Article 50 transparency from 2 August 2026 and postponed high-risk deadlines; Official Journal publication unconfirmed. Not the legal text. Verify with counsel.",
+      "chapters": [
+        "12"
+      ],
+      "verified": false
+    },
+    {
+      "date": "July 2024",
+      "key": "nist-ai-600-1",
+      "org": "NIST",
+      "title": "Artificial Intelligence Risk Management Framework: Generative AI Profile (NIST AI 600-1)",
+      "url": "https://doi.org/10.6028/NIST.AI.600-1",
+      "tier": 1,
+      "kind": "official guidance",
+      "annotation": "Seen through search summaries. Voluntary profile published July 2024. Not read in full.",
+      "chapters": [
+        "12"
+      ],
+      "verified": false
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Visual hierarchy",
+      "definition": "The order in which attention moves through a screen, controlled by size, weight, contrast, space, position and motion.",
+      "why": "If you cannot name the first, second and third read, the screen has decoration, not hierarchy.",
+      "chapters": [
+        "01"
+      ]
+    },
+    {
+      "term": "Taste",
+      "definition": "The ability to judge which acceptable option is right for this product, user and moment, and to explain why.",
+      "why": "Execution is increasingly automated; judgment is the harder-to-automate part.",
+      "contrast": "Craft is the ability to execute; taste is the ability to judge.",
+      "chapters": [
+        "01"
+      ]
+    },
+    {
+      "term": "Type scale",
+      "definition": "A small, named set of font sizes related by a consistent ratio.",
+      "why": "It replaces ad hoc sizes with decisions a team can reuse.",
+      "chapters": [
+        "01"
+      ]
+    },
+    {
+      "term": "Semantic color",
+      "definition": "Naming colors by role (text-muted, accent, danger) rather than appearance (gray-200, blue-600).",
+      "why": "Roles let you theme, support dark mode and rebrand without redesigning screens.",
+      "chapters": [
+        "01"
+      ]
+    },
+    {
+      "term": "OKLCH",
+      "definition": "A color model with lightness, chroma and hue designed so equal lightness steps look perceptually even.",
+      "why": "Makes tonal scales with predictable contrast far easier than HSL.",
+      "chapters": [
+        "01"
+      ]
+    },
+    {
+      "term": "Contrast ratio",
+      "definition": "A measure of luminance difference between two colors. WCAG 2.2 requires 4.5:1 for normal text and 3:1 for large text and UI components.",
+      "why": "It is the contrast standard you can be held to today.",
+      "chapters": [
+        "01"
+      ]
+    },
+    {
+      "term": "APCA",
+      "definition": "Advanced Perceptual Contrast Algorithm, an exploratory contrast method removed from the July 2023 WCAG 3 draft.",
+      "why": "Often misreported as the replacement for WCAG 2 contrast. It is not, as of the September 2026 WCAG 3 draft.",
+      "chapters": [
+        "01"
+      ]
+    },
+    {
+      "term": "WCAG 2.2",
+      "definition": "The current normative W3C accessibility guideline set, with Level A, AA and AAA success criteria.",
+      "why": "The basis for most accessibility requirements and legal references.",
+      "chapters": [
+        "01",
+        "02"
+      ]
+    },
+    {
+      "term": "Container query",
+      "definition": "A CSS feature that lets a component change styles based on the size of its container rather than the viewport.",
+      "why": "Makes components reusable across layouts in a design system.",
+      "chapters": [
+        "01",
+        "02"
+      ]
+    },
+    {
+      "term": "Affordance",
+      "definition": "What an object allows a person to do.",
+      "why": "Distinguish from signifiers, which communicate the affordance.",
+      "contrast": "A signifier is the cue that tells you the affordance exists.",
+      "chapters": [
+        "02"
+      ]
+    },
+    {
+      "term": "Signifier",
+      "definition": "A perceivable cue that communicates what can be done and how.",
+      "why": "Most unclear UI is missing signifiers.",
+      "chapters": [
+        "02"
+      ]
+    },
+    {
+      "term": "State matrix",
+      "definition": "A table of every state a component or screen can be in (empty, loading, partial, error, success, disabled, offline) and its design.",
+      "why": "Most late rework comes from undesigned states.",
+      "chapters": [
+        "02"
+      ]
+    },
+    {
+      "term": "Progressive disclosure",
+      "definition": "Showing what most people need first and revealing the rest on demand.",
+      "why": "Reduces overload when done well and hides necessary things when done badly.",
+      "chapters": [
+        "02"
+      ]
+    },
+    {
+      "term": "Information architecture",
+      "definition": "How content and functions are organized, grouped and labeled so people can find and understand them.",
+      "why": "In complex products it is domain modeling that shapes the entire product.",
+      "chapters": [
+        "02",
+        "05"
+      ]
+    },
+    {
+      "term": "Tree testing",
+      "definition": "Testing whether people can find items in a proposed structure with the visual design removed.",
+      "why": "The most direct check of an IA before you build it.",
+      "chapters": [
+        "02"
+      ]
+    },
+    {
+      "term": "Human-in-the-loop",
+      "definition": "A design in which a person reviews or approves an automated system's actions at chosen points.",
+      "why": "Scale oversight to risk and reversibility.",
+      "chapters": [
+        "02"
+      ]
+    },
+    {
+      "term": "Generative UI",
+      "definition": "Interfaces assembled or chosen by an AI at runtime, rather than fully predefined.",
+      "why": "Makes the underlying component library and constraints the guardrail for coherence and accessibility.",
+      "chapters": [
+        "02"
+      ]
+    },
+    {
+      "term": "Evals",
+      "definition": "Structured tests of AI output quality against a rubric across many inputs.",
+      "why": "You judge an AI feature by behavior over many cases, not by a mockup.",
+      "chapters": [
+        "02",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "term": "Design token",
+      "definition": "A named, platform-neutral design decision, such as a color or spacing value.",
+      "why": "One place to change a decision across design and code.",
+      "chapters": [
+        "03"
+      ]
+    },
+    {
+      "term": "Semantic token",
+      "definition": "A token named by meaning that references a primitive token.",
+      "why": "Components that use semantic tokens survive theming and rebranding.",
+      "chapters": [
+        "03"
+      ]
+    },
+    {
+      "term": "Design Tokens Specification 2025.10",
+      "definition": "The first stable version of the Design Tokens Community Group's vendor-neutral token format, announced 28 October 2025.",
+      "why": "A shared format for moving tokens between design tools and code. A community group specification, not a W3C Standard.",
+      "chapters": [
+        "03"
+      ]
+    },
+    {
+      "term": "Design system governance",
+      "definition": "The decision-making, contribution and versioning processes that keep a system healthy.",
+      "why": "A system without governance becomes a style guide that is going out of date.",
+      "chapters": [
+        "03"
+      ]
+    },
+    {
+      "term": "Synthetic users",
+      "definition": "AI-generated stand-ins for research participants.",
+      "why": "NN/g found them overly agreeable and shallow in re-run studies; use only as a supplement, with disclosure.",
+      "chapters": [
+        "04"
+      ]
+    },
+    {
+      "term": "Reflexive thematic analysis",
+      "definition": "A rigorous qualitative method of coding data and developing themes that treats the researcher's interpretation as part of the method.",
+      "why": "A model for the kind of interpretation AI first-pass coding cannot replace.",
+      "chapters": [
+        "04"
+      ]
+    },
+    {
+      "term": "Journey map",
+      "definition": "A visualization of a person's experience over time as they try to achieve a goal, with actions, thoughts, emotions and touchpoints.",
+      "why": "Only useful when grounded in research and tied to decisions.",
+      "chapters": [
+        "04",
+        "05"
+      ]
+    },
+    {
+      "term": "Service blueprint",
+      "definition": "A journey map extended with the back-stage actions, systems and people that support each step.",
+      "why": "Exposes operational cost and handoffs behind the screen.",
+      "chapters": [
+        "04",
+        "05"
+      ]
+    },
+    {
+      "term": "Opportunity solution tree",
+      "definition": "A map from a desired outcome to customer opportunities, solutions and assumption tests, from Teresa Torres's continuous discovery approach.",
+      "why": "Makes learning visible and ties solutions to evidence.",
+      "chapters": [
+        "05"
+      ]
+    },
+    {
+      "term": "Product trio",
+      "definition": "A product manager, a designer and an engineer who do discovery together.",
+      "why": "Shared understanding of the problem and shared ownership of risk.",
+      "chapters": [
+        "05"
+      ]
+    },
+    {
+      "term": "Four product risks",
+      "definition": "Value, usability, feasibility and viability, per Marty Cagan.",
+      "why": "Discovery exists to reduce these before committing to build.",
+      "chapters": [
+        "05"
+      ]
+    },
+    {
+      "term": "Outcome versus output",
+      "definition": "An outcome is a change in behavior or result; an output is something you ship.",
+      "why": "Strategy and discovery are organized around outcomes.",
+      "chapters": [
+        "05"
+      ]
+    },
+    {
+      "term": "Design engineer",
+      "definition": "A role that combines design craft with front-end building, often including AI-assisted prototyping.",
+      "why": "A direction in job postings reviewed in October 2026, though job-board data is noisy.",
+      "chapters": [
+        "02",
+        "05"
+      ]
+    },
+    {
+      "term": "Product sense",
+      "definition": "The ability to judge quickly, and with reasons, whether an idea is valuable, usable, feasible and viable.",
+      "why": "Built by critiquing products out loud: who it is for, what job it does, how it makes money, what to test.",
+      "chapters": [
+        "06"
+      ]
+    },
+    {
+      "term": "Activation",
+      "definition": "The share of new users who reach their first meaningful value.",
+      "why": "Onboarding is design's biggest lever on growth.",
+      "chapters": [
+        "06"
+      ]
+    },
+    {
+      "term": "Retention",
+      "definition": "The share of users who keep coming back over time.",
+      "why": "A product people leave cannot grow; a flattening curve means a core finds lasting value.",
+      "chapters": [
+        "06"
+      ]
+    },
+    {
+      "term": "Net revenue retention",
+      "definition": "Revenue from existing customers over time, including expansion and loss.",
+      "why": "In B2B, expansion depends on adoption and satisfaction.",
+      "chapters": [
+        "06"
+      ]
+    },
+    {
+      "term": "Unit economics",
+      "definition": "The revenue and cost of a single customer or transaction.",
+      "why": "Shows whether growth is profitable and why AI per-use cost matters.",
+      "chapters": [
+        "06"
+      ]
+    },
+    {
+      "term": "RICE",
+      "definition": "A prioritization score from reach, impact, confidence and effort.",
+      "why": "Makes assumptions visible; the score is a guess, not an answer.",
+      "chapters": [
+        "06"
+      ]
+    },
+    {
+      "term": "McKinsey Design Index",
+      "definition": "A 2018 McKinsey analysis linking design performance to financial results across about 300 public companies.",
+      "why": "Correlational and partly self-reported; use it with caveats.",
+      "chapters": [
+        "06"
+      ]
+    },
+    {
+      "term": "Pyramid principle",
+      "definition": "Leading with the answer or recommendation and then supporting it.",
+      "why": "Helps busy audiences decide faster.",
+      "chapters": [
+        "07"
+      ]
+    },
+    {
+      "term": "Design critique",
+      "definition": "A structured conversation to improve work against its goals.",
+      "why": "Not a vote, an approval or a place for preference.",
+      "chapters": [
+        "07"
+      ],
+      "contrast": "Feedback gathered informally or a stakeholder review."
+    },
+    {
+      "term": "I like, I wish, what if",
+      "definition": "A feedback structure attributed to Stanford's d.school: what works, what falls short, and an alternative as a question.",
+      "why": "Frames criticism as collaboration.",
+      "chapters": [
+        "07"
+      ]
+    },
+    {
+      "term": "Design sprint",
+      "definition": "A five-day process for defining, sketching, deciding, prototyping and testing an idea.",
+      "why": "Useful for high-stakes ideas; overused when a smaller exercise would do.",
+      "chapters": [
+        "07"
+      ]
+    },
+    {
+      "term": "Decision record",
+      "definition": "A short written account of an important decision, its options and reasons.",
+      "why": "Prevents repeated debate and shows the reasoning later.",
+      "chapters": [
+        "08"
+      ]
+    },
+    {
+      "term": "DACI",
+      "definition": "A decision role framework: driver, approver, contributors, informed.",
+      "why": "Its value is forcing the team to name who decides.",
+      "chapters": [
+        "08"
+      ]
+    },
+    {
+      "term": "Working agreement",
+      "definition": "A short team agreement on how disciplines work together and decide.",
+      "why": "Reduces friction from unstated expectations.",
+      "chapters": [
+        "08"
+      ]
+    },
+    {
+      "term": "Fidelity",
+      "definition": "How closely a prototype resembles the final product in look, behavior or content.",
+      "why": "Match fidelity to the question you need to answer.",
+      "chapters": [
+        "09"
+      ]
+    },
+    {
+      "term": "Wizard of Oz prototype",
+      "definition": "A prototype in which a person secretly simulates the system's behavior.",
+      "why": "Tests an AI or complex interaction before building it.",
+      "chapters": [
+        "09"
+      ]
+    },
+    {
+      "term": "Acceptance criteria",
+      "definition": "A list of conditions that mean something is built correctly.",
+      "why": "The contract you review generated or built work against.",
+      "chapters": [
+        "09"
+      ]
+    },
+    {
+      "term": "Design QA",
+      "definition": "Reviewing the built product against the design and acceptance criteria.",
+      "why": "Catches differences that matter before release.",
+      "chapters": [
+        "09"
+      ]
+    },
+    {
+      "term": "Semantic HTML",
+      "definition": "Using elements that describe what content is, such as button, nav and label.",
+      "why": "The foundation for accessibility, search and maintainability.",
+      "chapters": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "term": "Box model",
+      "definition": "The model in which every element is content, padding, border and margin.",
+      "why": "Most spacing bugs are box model questions.",
+      "chapters": [
+        "10"
+      ]
+    },
+    {
+      "term": "Core Web Vitals",
+      "definition": "Google's measures of loading (LCP), responsiveness (INP) and visual stability (CLS).",
+      "why": "Performance is part of the experience.",
+      "chapters": [
+        "10"
+      ]
+    },
+    {
+      "term": "Pull request",
+      "definition": "A proposed code change that others review before it is merged.",
+      "why": "A place designers can review behavior, accessibility and consistency.",
+      "chapters": [
+        "10"
+      ]
+    },
+    {
+      "term": "Context window",
+      "definition": "The amount of text a model can consider at once.",
+      "why": "What is not in context cannot reliably be used.",
+      "chapters": [
+        "10",
+        "12"
+      ]
+    },
+    {
+      "term": "Retrieval-augmented generation",
+      "definition": "Fetching relevant documents and giving them to a model to answer from.",
+      "why": "Enables citations; only as good as what is retrieved.",
+      "chapters": [
+        "10"
+      ]
+    },
+    {
+      "term": "POUR",
+      "definition": "WCAG's four principles: perceivable, operable, understandable, robust.",
+      "why": "A quick structure for thinking about accessibility.",
+      "chapters": [
+        "11"
+      ]
+    },
+    {
+      "term": "Accessible name",
+      "definition": "The text assistive technology uses to identify a control.",
+      "why": "Icon-only buttons and unlabeled fields fail without one.",
+      "chapters": [
+        "11"
+      ]
+    },
+    {
+      "term": "Accessibility tree",
+      "definition": "The structure browsers expose to assistive technology, built from semantics.",
+      "why": "Bad structure cannot be repaired with visual styling.",
+      "chapters": [
+        "11"
+      ]
+    },
+    {
+      "term": "Accessibility overlay",
+      "definition": "A widget sold as an automatic accessibility fix for a site.",
+      "why": "Widely criticized; cannot fix underlying structure or interaction problems.",
+      "chapters": [
+        "11"
+      ]
+    },
+    {
+      "term": "Inclusive design",
+      "definition": "Designing with attention to who is excluded by a product's assumptions.",
+      "why": "Goes beyond standards to language, culture, context and safety.",
+      "chapters": [
+        "11"
+      ]
+    },
+    {
+      "term": "Prompt",
+      "definition": "The instructions and context given to a model.",
+      "why": "Best treated as a clear brief with goal, context, constraints, format and criteria.",
+      "chapters": [
+        "12"
+      ]
+    },
+    {
+      "term": "Sycophancy",
+      "definition": "A model's tendency to agree with or flatter the user.",
+      "why": "Makes AI critique of your own work unreliable.",
+      "chapters": [
+        "04",
+        "12"
+      ]
+    },
+    {
+      "term": "EU AI Act",
+      "definition": "European regulation phasing in obligations for AI systems, including transparency duties.",
+      "why": "Dates have been changing; verify the current legal position.",
+      "chapters": [
+        "12"
+      ]
+    },
+    {
+      "term": "NIST AI 600-1",
+      "definition": "NIST's voluntary Generative AI Profile of its AI Risk Management Framework, July 2024.",
+      "why": "A risk vocabulary for talking to governance and engineering teams.",
+      "chapters": [
+        "12"
+      ]
+    }
+  ]
+}

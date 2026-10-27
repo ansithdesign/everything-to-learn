@@ -1,0 +1,20 @@
+{
+  "title": "Solutions Hub",
+  "owner": "Ansith",
+  "tagline": "Knowledge books on the things I want to get better at, written to be read, saved and come back to. Product design today, more topics over time.",
+  "topics": [
+    {
+      "id": "product-design",
+      "title": "Product Design",
+      "kind": "Knowledge Book",
+      "category": "Design",
+      "href": "product-design.html",
+      "description": "Staying skilled in UX and product design through 2026 and beyond: the fundamentals explained from the ground up, plus what is changing now with AI and new standards.",
+      "status": "Active",
+      "updated": "October 2026",
+      "book": "product-design",
+      "storageKey": "pdbook:v1",
+      "bookmarksKey": "pdbook:bookmarks:v1"
+    }
+  ]
+}
