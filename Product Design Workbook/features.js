@@ -60,7 +60,7 @@
     if (eb && !eb.querySelector(".ed-tag")) {
       var t = document.createElement("span");
       t.className = "ed-tag";
-      t.textContent = ver() === "modules" ? "2026 edition" : "Fundamentals";
+      t.textContent = (window.__pdFund && !window.__pdFund[slug()]) ? "Fundamentals + 2026" : ver() === "modules" ? "2026 edition" : "Fundamentals";
       eb.insertBefore(t, eb.firstChild);
     }
     applyEditionMeta();

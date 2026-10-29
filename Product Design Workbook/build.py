@@ -167,7 +167,7 @@ def main():
     s = s.replace("planned in total)", "in the book so far)")
     s = s.replace(
         "Each chapter separates fundamentals from what is changing in 2026, and ends with practice.",
-        "Every chapter comes in two editions. <em>Fundamentals</em> explains the topic from the ground up; the <em>2026 edition</em> covers what is changing now. Switch any time from the bar at the top of a chapter.")
+        "Chapters 1 to 12 come in two editions. <em>Fundamentals</em> explains the topic from the ground up; the <em>2026 edition</em> covers what is changing now. Switch any time from the bar at the top of a chapter. The AI chapters in Part VI combine both in one.")
 
     # ---- edition-aware loader + features (switcher, bookmarks) ---------
     s = s.replace(BN_OLD, BN_NEW)

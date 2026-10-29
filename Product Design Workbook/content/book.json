@@ -4,7 +4,8 @@
     "Part II: Evidence & Strategy",
     "Part III: Product, People & Practice",
     "Part IV: Building & Inclusion",
-    "Part V: AI & Emerging Practice"
+    "Part V: AI & Emerging Practice",
+    "Part VI: AI in Practice"
   ],
   "chapters": [
     {
@@ -406,6 +407,259 @@
           "Apply responsible AI principles to design work."
         ]
       }
+    },
+    {
+      "id": "13",
+      "slug": "ai-landscape-toolstack",
+      "part": 5,
+      "title": "The AI Landscape & Your Toolstack",
+      "subtitle": "The kinds of AI a designer touches, how to choose and where it is used",
+      "description": "A map of AI for product designers: model types, how they behave, where designers use them and a method for choosing tools.",
+      "objectives": [
+        "Name the kinds of AI tools and the design job each fits.",
+        "Explain the five model properties behind most failures.",
+        "Choose a tool using output shape, context, control and risk.",
+        "Trial a new tool safely and record the result."
+      ],
+      "difficulty": "Foundation",
+      "prerequisites": [],
+      "related": [
+        "12",
+        "14"
+      ],
+      "file": "13-ai-landscape-toolstack"
+    },
+    {
+      "id": "14",
+      "slug": "ai-research-discovery",
+      "part": 5,
+      "title": "AI for Research & Discovery",
+      "subtitle": "Synthesis, AI-moderated interviews, synthetic users and keeping evidence honest",
+      "description": "How AI changes each stage of research, how to synthesize safely, and where synthetic users and AI interviewers help or mislead.",
+      "objectives": [
+        "Place AI correctly at each stage of the research workflow.",
+        "Trace every insight to evidence and check generated quotes.",
+        "Explain why synthetic users cannot validate decisions.",
+        "Decide when an AI-moderated interview is appropriate."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "04"
+      ],
+      "related": [
+        "04",
+        "21"
+      ],
+      "file": "14-ai-research-discovery"
+    },
+    {
+      "id": "15",
+      "slug": "ai-visual-media-assets",
+      "part": 5,
+      "title": "AI for Visual, Brand & Media",
+      "subtitle": "Images, illustration, video, motion, consistency and rights",
+      "description": "How image and video models work, how designers direct them, how to keep a set consistent and where rights and quality go wrong.",
+      "objectives": [
+        "Write an image brief and direct iterations.",
+        "Keep a set of generated assets visually consistent.",
+        "List failure modes to check on every asset.",
+        "Decide when not to generate."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "01"
+      ],
+      "related": [
+        "01",
+        "22"
+      ],
+      "file": "15-ai-visual-media-assets"
+    },
+    {
+      "id": "16",
+      "slug": "ai-prototyping-vibe-coding",
+      "part": 5,
+      "title": "Prompt-to-UI, Prototyping & Vibe Coding",
+      "subtitle": "From mockups to running software, and what designers add",
+      "description": "Three levels of AI prototyping, a brief and review method, vibe-coding rules and the failures generated UI shows.",
+      "objectives": [
+        "Choose a fidelity and tool for a prototyping goal.",
+        "Write a prototype brief with states, data and constraints.",
+        "Review generated UI against a fixed checklist.",
+        "Decide when a prototype is thrown away versus promoted."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "09"
+      ],
+      "related": [
+        "09",
+        "17"
+      ],
+      "file": "16-ai-prototyping-vibe-coding"
+    },
+    {
+      "id": "17",
+      "slug": "ai-design-systems-handoff",
+      "part": 5,
+      "title": "Design Systems, MCP & Design-to-Code",
+      "subtitle": "Making your system readable by agents, and handoff in an agent era",
+      "description": "What makes a design system AI-ready, how Figma's MCP server and Code Connect fit, workflows both ways and governance.",
+      "objectives": [
+        "List the layers that make a system AI-ready.",
+        "Explain what an MCP connection does and does not do.",
+        "Run a design-to-code review as a pull request.",
+        "Fix recurring agent mistakes at the source."
+      ],
+      "difficulty": "Advanced",
+      "prerequisites": [
+        "03",
+        "10"
+      ],
+      "related": [
+        "03",
+        "16"
+      ],
+      "file": "17-ai-design-systems-handoff"
+    },
+    {
+      "id": "18",
+      "slug": "ai-content-ux-writing",
+      "part": 5,
+      "title": "AI for Content & UX Writing",
+      "subtitle": "Copy briefs, voice, errors, localization and sample data",
+      "description": "Using AI for UI text, voice systems, errors, localization and test data, and the verification each needs.",
+      "objectives": [
+        "Write a copy brief with state, voice and glossary.",
+        "Verify claims in generated copy.",
+        "Plan localization with AI drafts and human review.",
+        "Create realistic, safe sample data."
+      ],
+      "difficulty": "Foundation",
+      "prerequisites": [
+        "07"
+      ],
+      "related": [
+        "07",
+        "12"
+      ],
+      "file": "18-ai-content-ux-writing"
+    },
+    {
+      "id": "19",
+      "slug": "ai-accessibility-qa-critique",
+      "part": 5,
+      "title": "AI for Accessibility, QA & Critique",
+      "subtitle": "What AI can check, what it cannot, and how to use it as a reviewer",
+      "description": "AI for accessibility, state coverage, critique and QA, with the limits of automated checks and a routine that pairs AI with people.",
+      "objectives": [
+        "State what automated and AI checks cannot certify.",
+        "Enumerate states and edge cases with AI and complete them.",
+        "Run an AI critique that avoids flattery.",
+        "Compare AI and human audits to set trust."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "11"
+      ],
+      "related": [
+        "11",
+        "21"
+      ],
+      "file": "19-ai-accessibility-qa-critique"
+    },
+    {
+      "id": "20",
+      "slug": "designing-ai-products",
+      "part": 5,
+      "title": "Designing AI Products: Patterns, Agents & Generative UI",
+      "subtitle": "Interaction patterns, autonomy, approval and runtime interfaces",
+      "description": "Designing features that contain AI: when to use it, core patterns, agent control and consent, and generative UI.",
+      "objectives": [
+        "Apply the cost-of-error test to decide if AI fits.",
+        "Choose interaction patterns and write agent action reviews.",
+        "Distinguish design-time from runtime generative UI.",
+        "Design uncertainty, refusal and recovery states."
+      ],
+      "difficulty": "Advanced",
+      "prerequisites": [
+        "02"
+      ],
+      "related": [
+        "02",
+        "21"
+      ],
+      "file": "20-designing-ai-products"
+    },
+    {
+      "id": "21",
+      "slug": "ai-evals-quality-trust",
+      "part": 5,
+      "title": "Evals, Quality & Trust",
+      "subtitle": "Defining good, testing it, monitoring it and designing calibrated trust",
+      "description": "What evals are, how designers build test sets and rubrics, how to test with people and how to monitor after launch.",
+      "objectives": [
+        "Build a test set and a scored rubric for an AI feature.",
+        "Compare human and model judging.",
+        "Design signals that calibrate trust.",
+        "Plan monitoring and an incident process."
+      ],
+      "difficulty": "Advanced",
+      "prerequisites": [
+        "12",
+        "20"
+      ],
+      "related": [
+        "12",
+        "20"
+      ],
+      "file": "21-ai-evals-quality-trust"
+    },
+    {
+      "id": "22",
+      "slug": "ai-law-ip-ethics",
+      "part": 5,
+      "title": "AI Law, IP & Ethics for Designers",
+      "subtitle": "Copyright, data, EU transparency rules, bias and risk review",
+      "description": "A working briefing on ownership, training data, the EU AI Act's transparency duties, privacy, bias and a pre-launch risk review.",
+      "objectives": [
+        "Explain the limits of copyright in AI-generated work.",
+        "List the transparency items in EU AI Act Article 50.",
+        "Run an eight-part pre-launch risk review.",
+        "Know when to escalate to legal and privacy."
+      ],
+      "difficulty": "Advanced",
+      "prerequisites": [
+        "12"
+      ],
+      "related": [
+        "12",
+        "15"
+      ],
+      "file": "22-ai-law-ip-ethics"
+    },
+    {
+      "id": "23",
+      "slug": "ai-native-designer-career",
+      "part": 5,
+      "title": "The AI-Native Designer: Roles, Systems & Career",
+      "subtitle": "Skills that compound, personal automation and portfolio",
+      "description": "How the role is shifting, which skills compound, how to build a personal AI system and how to show judgment in a portfolio.",
+      "objectives": [
+        "Read job-market evidence critically.",
+        "Build portable context files, prompts and checklists.",
+        "Set up a safe, logged automation.",
+        "Write a 90-day plan and a personal AI policy."
+      ],
+      "difficulty": "Intermediate",
+      "prerequisites": [
+        "12"
+      ],
+      "related": [
+        "12",
+        "13"
+      ],
+      "file": "23-ai-native-designer-career"
     }
   ],
   "references": [
@@ -422,7 +676,13 @@
         "01",
         "02",
         "03",
-        "05"
+        "05",
+        "21",
+        "13",
+        "20",
+        "14",
+        "16",
+        "23"
       ],
       "verified": true
     },
@@ -435,7 +695,8 @@
       "kind": "research",
       "annotation": "Opened and read. NN/g re-ran three studies with ChatGPT and a synthetic-user product and found responses overly agreeable and shallow. I did not capture the exact article title; open the page for it.",
       "chapters": [
-        "04"
+        "04",
+        "14"
       ],
       "verified": true
     },
@@ -450,7 +711,8 @@
       "annotation": "Opened and read. Community group specification, not a W3C Standard on the Standards Track.",
       "chapters": [
         "01",
-        "03"
+        "03",
+        "17"
       ],
       "verified": true
     },
@@ -493,7 +755,8 @@
       "annotation": "The normative accessibility standard. Cited from my knowledge of its success criteria; not re-opened for this book. Use the criteria text when making conformance claims.",
       "chapters": [
         "01",
-        "02"
+        "02",
+        "19"
       ],
       "verified": false
     },
@@ -521,7 +784,10 @@
       "annotation": "The report is behind a form; figures in this book come from secondary coverage and are not verified. A vendor survey with its own interests.",
       "chapters": [
         "01",
-        "05"
+        "05",
+        "13",
+        "16",
+        "23"
       ],
       "verified": false
     },
@@ -560,7 +826,8 @@
       "kind": "research",
       "annotation": "Heuristics from expert evaluation; rules of thumb, not experimental laws. Not re-opened for this book.",
       "chapters": [
-        "02"
+        "02",
+        "19"
       ],
       "verified": false
     },
@@ -615,7 +882,10 @@
       "chapters": [
         "02",
         "04",
-        "05"
+        "05",
+        "21",
+        "14",
+        "18"
       ],
       "verified": false
     },
@@ -641,7 +911,8 @@
       "kind": "tool documentation",
       "annotation": "A widely used token transformation tool, named as a reference implementation in the Design Tokens announcement. Not read in detail.",
       "chapters": [
-        "03"
+        "03",
+        "17"
       ],
       "verified": false
     },
@@ -654,7 +925,8 @@
       "kind": "company blog",
       "annotation": "Seen only as a search result summary: describes invented prop names and hardcoded values in AI-generated components. Not opened; confirm the details.",
       "chapters": [
-        "03"
+        "03",
+        "17"
       ],
       "verified": false
     },
@@ -720,7 +992,8 @@
       "kind": "book",
       "annotation": "Practical guidance for asking about past behavior instead of opinions. Not re-opened for this book.",
       "chapters": [
-        "04"
+        "04",
+        "14"
       ],
       "verified": false
     },
@@ -776,7 +1049,8 @@
       "annotation": "Opened and read. February 2026 scan of one million home pages: 95.9% with detectable WCAG 2 failures, 56.1 errors per page, ARIA pages averaged more errors. Automated detection only, so it understates real failures.",
       "chapters": [
         "10",
-        "11"
+        "11",
+        "19"
       ],
       "verified": true
     },
@@ -935,7 +1209,9 @@
       "kind": "official guidance",
       "annotation": "Not re-opened for this book. Use the current guide for whichever model you use, and re-read it when the model changes. Other vendors publish their own.",
       "chapters": [
-        "12"
+        "12",
+        "21",
+        "18"
       ],
       "verified": false
     },
@@ -962,7 +1238,199 @@
       "kind": "official guidance",
       "annotation": "Seen through search summaries. Voluntary profile published July 2024. Not read in full.",
       "chapters": [
-        "12"
+        "12",
+        "22",
+        "21"
+      ],
+      "verified": false
+    },
+    {
+      "key": "sbc-conventional",
+      "org": "SBC (Brazilian Computer Society) proceedings",
+      "title": "Usable but Conventional: An Empirical Study on the UX of AI-Generated Interface Prototypes",
+      "url": "https://sol.sbc.org.br/index.php/semish/article/view/43563",
+      "tier": 2,
+      "kind": "research",
+      "annotation": "Seen only as a search result title; not opened. Cited for the title and the general idea, not for any finding.",
+      "chapters": [
+        "13"
+      ],
+      "verified": false
+    },
+    {
+      "key": "fastco-ai-design-jobs",
+      "org": "Fast Company",
+      "title": "AI in design and design jobs, 2026",
+      "url": "https://www.fastcompany.com/91543989/ai-in-design-design-jobs-2026",
+      "tier": 3,
+      "kind": "journalism",
+      "annotation": "Seen through search summaries only. Source for the secondary claim of seven AI tools per designer. Not opened.",
+      "chapters": [
+        "13",
+        "23"
+      ],
+      "verified": false
+    },
+    {
+      "key": "mcpdir-compare",
+      "org": "MCP.Directory",
+      "title": "Claude Design vs Stitch vs v0 vs Lovable vs Figma Make: A 2026 Comparison",
+      "date": "May 2026",
+      "url": "https://mcp.directory/blog/claude-design-vs-stitch-vs-v0-vs-lovable-vs-figma-make-2026",
+      "tier": 3,
+      "kind": "secondary summary",
+      "annotation": "Opened and read. Comparison snapshot dated 8 May 2026 on a site that lists MCP servers; prices and features will have changed.",
+      "chapters": [
+        "13",
+        "16"
+      ],
+      "verified": true
+    },
+    {
+      "key": "cleverx-playbook",
+      "org": "CleverX (vendor)",
+      "title": "AI in user research 2026: complete playbook",
+      "url": "https://cleverx.com/blog/ai-in-user-research-2026-complete-playbook/",
+      "tier": 3,
+      "kind": "company blog",
+      "annotation": "Seen through search summaries. Vendor blog; relays User Interviews 2026 State of User Research figures. Not opened.",
+      "chapters": [
+        "14"
+      ],
+      "verified": false
+    },
+    {
+      "key": "rangy-commercial",
+      "org": "Various affiliate and vendor roundups",
+      "title": "AI image generation commercial-use roundups (2026)",
+      "url": "https://rangy.ai/blog",
+      "tier": 3,
+      "kind": "company blog",
+      "annotation": "Search results only. Roundups conflict on rankings and licensing; read each vendor's terms.",
+      "chapters": [
+        "15"
+      ],
+      "verified": false
+    },
+    {
+      "key": "copyright-part2",
+      "org": "IPWatchdog (relaying U.S. Copyright Office)",
+      "title": "Part Two: Copyright Office AI Report Says Creative Prompting Doesn't Constitute Authorship",
+      "date": "29 January 2025",
+      "url": "https://ipwatchdog.com/2025/01/29/part-two-copyright-office-ai-report-says-creative-prompting-doesnt-constitute-authorship/",
+      "tier": 3,
+      "kind": "legal analysis",
+      "annotation": "Seen through search summaries. Summarizes the Copyright Office Part 2 report of 29 January 2025. Read the Office's own report for the current position.",
+      "chapters": [
+        "22",
+        "15"
+      ],
+      "verified": false
+    },
+    {
+      "key": "figma-mcp-docs",
+      "org": "Figma",
+      "title": "Figma MCP server: MCP vs agent",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/mcp-vs-agent",
+      "tier": 1,
+      "kind": "tool documentation",
+      "annotation": "Opened and read. States that the server supplies structured context and the agent writes the code; Code Connect and variables help reuse. Did not cover canvas-write tools.",
+      "chapters": [
+        "17"
+      ],
+      "verified": true
+    },
+    {
+      "key": "testparty-limits",
+      "org": "TestParty (vendor)",
+      "title": "What AI can fix in accessibility: capabilities and limits",
+      "url": "https://testparty.ai/blog/what-ai-can-fix-accessibility-capabilities-limits",
+      "tier": 3,
+      "kind": "company blog",
+      "annotation": "Seen through search summaries. Vendor source for the share of WCAG issues automated tools detect; estimates vary between vendors.",
+      "chapters": [
+        "19"
+      ],
+      "verified": false
+    },
+    {
+      "key": "joomla-alt",
+      "org": "Joomla Magazine",
+      "title": "The blind spots of accessibility testing tools: alt text",
+      "date": "June 2025",
+      "url": "https://magazine.joomla.org/all-issues/june-2025/the-blind-spots-of-accessibility-testing-tools-alt-text",
+      "tier": 3,
+      "kind": "journalism",
+      "annotation": "Seen through search summaries. June 2025 test of alt-text checkers and AI generation.",
+      "chapters": [
+        "19"
+      ],
+      "verified": false
+    },
+    {
+      "key": "smashing-agentic",
+      "org": "Smashing Magazine",
+      "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
+      "date": "February 2026",
+      "url": "https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/",
+      "tier": 2,
+      "kind": "expert practice",
+      "annotation": "Seen through search summaries; not opened. Practitioner patterns, not controlled studies.",
+      "chapters": [
+        "20"
+      ],
+      "verified": false
+    },
+    {
+      "key": "copilotkit-genui",
+      "org": "CopilotKit (vendor)",
+      "title": "The developer's guide to generative UI in 2026",
+      "url": "https://copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026",
+      "tier": 3,
+      "kind": "company blog",
+      "annotation": "Seen through search summaries. Vendor source for the static, declarative and open-ended generative UI split.",
+      "chapters": [
+        "20"
+      ],
+      "verified": false
+    },
+    {
+      "key": "goodwin-art50",
+      "org": "Goodwin Procter (law firm)",
+      "title": "Not Delayed, Not Deferred: EU AI Act Transparency Obligations Are Now in Force",
+      "date": "August 2026",
+      "url": "https://www.goodwinlaw.com/en/insights/publications/2026/08/alerts-technology-dpc-eu-ai-act-transparency-obligations-now-in-force",
+      "tier": 3,
+      "kind": "legal analysis",
+      "annotation": "Seen through search summaries; not opened. Law-firm commentary on Article 50 timing; confirm against the Official Journal.",
+      "chapters": [
+        "22"
+      ],
+      "verified": false
+    },
+    {
+      "key": "techinterview-aipe",
+      "org": "TechInterview.org",
+      "title": "AI Product Engineer Interview 2026: The New Hybrid Role",
+      "url": "https://www.techinterview.org/post/3233475314/ai-product-engineer-interview-2026-hybrid-role/",
+      "tier": 3,
+      "kind": "secondary summary",
+      "annotation": "Seen through search summaries. Interview-prep source listing evals as an expected skill.",
+      "chapters": [
+        "21"
+      ],
+      "verified": false
+    },
+    {
+      "key": "hackernoon-middle",
+      "org": "HackerNoon",
+      "title": "The Death in the Middle",
+      "url": "https://hackernoon.com/lite/the-death-in-the-middle",
+      "tier": 3,
+      "kind": "journalism",
+      "annotation": "Seen through search summaries. Single job-tracker reading for April 2026; thin evidence.",
+      "chapters": [
+        "23"
       ],
       "verified": false
     }
@@ -1492,6 +1960,63 @@
       "why": "A risk vocabulary for talking to governance and engineering teams.",
       "chapters": [
         "12"
+      ]
+    },
+    {
+      "term": "Evals",
+      "definition": "Repeatable tests of a model feature's behavior on realistic inputs, scored against criteria.",
+      "why": "They are the usability test for AI behavior; designers help define and read them.",
+      "chapters": [
+        "21"
+      ]
+    },
+    {
+      "term": "MCP (Model Context Protocol)",
+      "definition": "An open standard for connecting AI models to tools and data such as design files or codebases.",
+      "why": "It lets an agent read your real components and variables.",
+      "chapters": [
+        "13",
+        "17"
+      ]
+    },
+    {
+      "term": "Code Connect",
+      "definition": "A Figma feature mapping design components to their code components.",
+      "why": "It stops agents guessing which component you meant.",
+      "chapters": [
+        "17"
+      ]
+    },
+    {
+      "term": "Vibe coding",
+      "definition": "Directing a coding agent in plain language and accepting code you do not fully read.",
+      "why": "Fine for throwaway prototypes; risky for anything that ships.",
+      "chapters": [
+        "16"
+      ]
+    },
+    {
+      "term": "Generative UI",
+      "definition": "Interfaces produced by AI, either at design time for human review or at runtime per request.",
+      "why": "The two have very different control and safety needs.",
+      "chapters": [
+        "20"
+      ]
+    },
+    {
+      "term": "Synthetic users",
+      "definition": "Language-model stand-ins for research participants.",
+      "why": "They give typical, agreeable answers and cannot validate decisions.",
+      "chapters": [
+        "14"
+      ]
+    },
+    {
+      "term": "Article 50 (EU AI Act)",
+      "definition": "The Act's transparency duties: disclose AI interaction, label deepfakes and mark synthetic output.",
+      "why": "It turns disclosure into an interface requirement.",
+      "chapters": [
+        "22"
       ]
     }
   ]
